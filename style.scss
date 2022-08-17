@@ -32,7 +32,7 @@ body {
         border: 1px solid $secondarycolor;
         border-radius: 6px;
         &::placeholder {
-            color: $accentcolor;
+            color: $white;
         }
         &:focus {
             color: $secondarycolor;
@@ -40,7 +40,7 @@ body {
             
         }
         &:focus-visible {
-            outline: $accentcolor;
+            outline: $secondarycolor;
         }
     }
     button {
